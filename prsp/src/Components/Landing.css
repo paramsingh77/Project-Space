@@ -50,3 +50,132 @@
 .icons:hover{
     cursor: pointer;
 }
+
+
+@media (max-width: 1024px) {
+    .landing-page{
+        background: linear-gradient(to right, #3498db, #e74c3c);
+        height: 100%;   
+     }
+
+     .work-progress{
+        font-family: 'Afacad', sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        /* margin-left: 36.8%; */
+        padding: 20px;
+        display: flex;
+    }
+    .icons{
+        width: 10%;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+    .icons-right a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+  }
+@media (max-width: 768px) {
+    .landing-page{
+        background: linear-gradient(to right, #967bb6, #a2e8dd);
+        height: 100%;   
+     }
+
+     .work-progress{
+        font-family: 'Afacad', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        /* margin-left: 36.8%; */
+        padding: 20px;
+        display: flex;
+    }
+    .icons{
+        width: 10%;
+        font-size: 20px;
+        margin-top:  10px;
+        margin-left: 20px;
+        
+    }
+    .icons-right {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        /* margin-top: 30px; */
+    }
+    
+  }
+@media (max-width: 568px) {
+    .landing-page{
+        background: linear-gradient(to right , #bcdb4a 50% , #244f3d 50%);
+        height: 100%;   
+     }
+
+     .work-progress{
+        font-family: 'Afacad', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        /* margin-left: 36.8%; */
+        padding-top: 20px;
+        display: flex;
+        
+    }
+    .icons{
+        width: 10%;
+        font-size: 20px;
+        margin-top:  10px;
+        margin-left: 20px;
+        
+    }
+    .icons-right {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        display: none;
+        /* margin-top: 30px; */
+    }
+    .text-proj{
+        margin-left: 6%;
+        font-size: 40px;
+    }
+    
+  }
+@media (max-width: 393px) {
+    .landing-page{
+        background: linear-gradient(to right , #bcdb4a 50% , #244f3d 50%);
+        height: 100%;   
+     }
+
+     .work-progress{
+        font-family: 'Afacad', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        /* margin-left: 36.8%; */
+        padding-top: 20px;
+        display: flex;
+        
+    }
+    .icons{
+        width: 10%;
+        font-size: 20px;
+        margin-top:  10px;
+        margin-left: 10px;
+        
+    }
+    .icons-right {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        display: none;
+        /* margin-top: 30px; */
+    }
+    .text-proj{
+        margin-left: 1%;
+        font-size: 40px;
+    }
+    
+  }
