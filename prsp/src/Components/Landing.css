@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/afacad');
+
+.landing-page{
+   background: linear-gradient(to right , #bcdb4a 50% , #244f3d 50%);
+   height: 800px;   
+}
+
+.work-progress{
+    font-family: 'Afacad', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    /* margin-left: 36.8%; */
+    padding: 20px;
+    display: flex;
+}
+.color-space{
+    color: white;
+}
+
+.icons{
+    width: 10%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.icons-right{
+    width: 10%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+.icons-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons-right a:hover{
+    color: bisque;
+    cursor: pointer;
+}
+.text-proj{
+    width: 80%;
+    margin-left: 30.7%;
+}
+.icons:hover{
+    cursor: pointer;
+}
