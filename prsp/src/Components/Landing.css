@@ -179,3 +179,17 @@
     }
     
   }
+
+.sideBar{
+    width: 20%;
+    margin-left: 0;
+    height: 100vh;
+    background: #000;
+    display: none;
+}
+.sideBar1{
+    width: 20%;
+    margin-left: 0;
+    height: 100vh;
+    background: #000;
+}
