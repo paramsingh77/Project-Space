@@ -1,0 +1,40 @@
+{
+    "data" : [
+        {
+            "name" : "Project Space",
+            " src " : "https://portfolio-hw7q0e834-paramsingh77.vercel.app/",
+            "image" : " "
+        },
+        {
+            "name" : "Find Near Me",
+            "src"  : "https://find-near-me-1dl4-bnenptm4u-paramsingh77.vercel.app",
+            "image" : " "
+        },
+        {
+            "name" : "Easy Bot" ,
+            "src" :"https://easy-bot-three.vercel.app/",
+            "image" : "" 
+        },
+        {
+            "name" : "Movie Backend",
+            "src" : "https://github.com/paramsingh77/personal-movie-streaming-backend-using-Node",
+            "image" :""
+        },
+        {
+            "name" : "Netflix Clone",
+            "src" : "https://netflix-frontend-clone-react-git-main-paramsingh77.vercel.app/",
+            "image": ""
+         },
+         {
+            "name" : "Shopping Cart",
+            "src" : "https://shopping-cart-ffza.vercel.app/",
+            "image" :" "
+         },
+         {
+            "name" : "Food Delievery System" ,
+            "src" : "https://github.com/paramsingh77/Food-Delievery-System",
+            "image": ""
+         }
+
+    ]
+}

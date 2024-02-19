@@ -1,8 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/afacad');
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.complete-page{
+    display: flex;
+}
 .landing-page{
    background: linear-gradient(to right , #bcdb4a 50% , #244f3d 50%);
-   height: 800px;   
+   height: 800px;
+   width: 100vw;
+   margin-right: 0; 
 }
 
 .work-progress{
@@ -51,6 +60,9 @@
     cursor: pointer;
 }
 
+.sideBar{
+    width: 20vh;
+}
 
 @media (max-width: 1024px) {
     .landing-page{

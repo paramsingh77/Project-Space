@@ -1,4 +1,10 @@
-.style{
-    background-color: antiquewhite;
-    font-size: 300px;
+.sideContainer{
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
 }
