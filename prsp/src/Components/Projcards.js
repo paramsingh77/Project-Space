@@ -1,29 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Projcard.css'
-const Projcards = () => {
+const  Projcards = () => {
     
-    const cardsEl  = [];
+    const [state,setState] = useState([]);
 
-    async function getData(){
-        let response = await fetch('/prsp/src/Components/data.json')
-        let wait = await  response.json();
-        console.log("Data",wait);
-    }
-    getData();
- 
-    for(let i = 0 ; i < 8 ; i++){
-        cardsEl.push(
+    useEffect(()=>{
+        const grabData = async() => {
+        try{
+            let op = await fetch(`https://raw.githubusercontent.com/paramsingh77/Project-Space/main/prsp/src/Components/data.json`);
+            let response =  await op.json();
+            let response1 = response.data
+            console.log(response1)
+            setState(response1)
+        }
+        catch(err){
+            console.log("error");
+        }
+        }
+
+        grabData()
+    },[])
     
-            <div className='card-box'>
-                <div className='project-logo'>ndsm</div>
-                <div className='proj-desc'>ksdlf</div>
-                <div className='proj-link'>,msdfn</div>
-            </div>
-        )
-    }
+
   return (
     <div className='parent-card'>
-        {cardsEl}
+        { state.slice(1,8).map((value,index)=>(
+                    <div className='card-box' key={index}>
+                    <div className='project-logo'><img src={value.src} alt='pc'/>{value.src}</div> 
+                    <div className='proj-desc'>{value.name}</div>
+                    <div className='proj-link'>{value.link}</div>
+                    </div>
+        ))}
+       
     </div>
   )
 }
