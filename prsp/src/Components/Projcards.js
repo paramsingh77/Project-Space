@@ -26,7 +26,7 @@ const  Projcards = () => {
     <div className='parent-card'>
         { state.slice(1,8).map((value,index)=>(
                     <div className='card-box' key={index}>
-                    <div className='project-logo'><img src={value.src} alt='pc'/>{value.src}</div> 
+                    <div className='project-logo'><img className='project-logoos' src={value.src} alt='pc'/>{value.src}</div> 
                     <div className='proj-desc'>{value.name}</div>
                     <div className='proj-link'>{value.link}</div>
                     </div>

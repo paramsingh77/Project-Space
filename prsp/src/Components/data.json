@@ -3,37 +3,37 @@
         {
             "name" : "Project Space",
             "link" : "https://portfolio-hw7q0e834-paramsingh77.vercel.app/",
-            "src" : "https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2310713.jpg&fm=jpg"
+            "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
         },
         {
             "name" : "Find Near Me",
             "link"  : "https://find-near-me-1dl4-bnenptm4u-paramsingh77.vercel.app",
-            "src" : "https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-2310713.jpg&fm=jpg"
+             "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
         },
         {
             "name" : "Easy Bot" ,
             "linkc" :"https://easy-bot-three.vercel.app/",
-            "src" : "https://i.pinimg.com/236x/4b/d5/dd/4bd5dd57c1c8ca3325ab40b0ec0a2339.jpg" 
+             "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
         },
         {
             "name" : "Movie Backend",
             "link" : "https://github.com/paramsingh77/personal-movie-streaming-backend-using-Node",
-            "src" :""
+            "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
         },
         {
             "name" : "Netflix Clone",
             "link" : "https://netflix-frontend-clone-react-git-main-paramsingh77.vercel.app/",
-            "src": "https://cdn.pixabay.com/photo/2023/03/16/08/51/flowers-7856225_640.jpg"
+            "src": "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
          },
          {
             "name" : "Shopping Cart",
             "link" : "https://shopping-cart-ffza.vercel.app/",
-            "src" : "https://images.pexels.com/photos/4982737/pexels-photo-4982737.jpeg?cs=srgb&dl=pexels-shadab-%F0%9F%A6%8B-4982737.jpg&fm=jpg"
+             "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
          },
          {
             "name" : "Food Delievery System" ,
             "link" : "https://github.com/paramsingh77/Food-Delievery-System",
-            "src": "https://cdn.pixabay.com/photo/2023/03/16/08/51/flowers-7856225_640.jpg"
+             "src" : "https://i.pinimg.com/originals/21/77/95/2177951d97b19a49873b7f91006dcc40.gif"
          }
 
     ]
