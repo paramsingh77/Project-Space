@@ -1,8 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import './Projcard.css'
+import Modal from './Modal';
+
+
 const  Projcards = () => {
     
+    const [isModalOpen , setIsModalOpen] = useState(false);
     const [state,setState] = useState([]);
+    const [modalsrc, setModalsrc] = useState('');
+    const openModal = (link) => {
+        setModalsrc(link)
+        setIsModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+        setModalsrc('');
+    }
 
     useEffect(()=>{
         const grabData = async() => {
@@ -26,12 +40,12 @@ const  Projcards = () => {
     <div className='parent-card'>
         { state.slice(1,8).map((value,index)=>(
                     <div className='card-box' key={index}>
-                    <div className='project-logo'><img className='project-logoos' src={value.src} alt='pc'/>{value.src}</div> 
-                    <div className='proj-desc'>{value.name}</div>
-                    <div className='proj-link'>{value.link}</div>
+                    <div className='project-logo'><img className='project-logoos' src={value.src} alt='pc'/></div> 
+                    <div className='proj-desc text-center mt-5 font-encode font-bold'>{value.name}</div>
+                    <div className='proj-link font-Noto text-center ' ><a onClick={() => openModal(value.link)} className='hover:text-blue-700'>link</a></div>
                     </div>
         ))}
-       
+       <Modal isOpen={isModalOpen} onClose = {closeModal}  src={modalsrc} />
     </div>
   )
 }

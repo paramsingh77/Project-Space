@@ -9,7 +9,7 @@
 }
 .landing-page{
    background: linear-gradient(to right , #bcdb4a 50% , #244f3d 50%);
-   height: 800px;
+   height: 100%;
    width: 100vw;
    margin-right: 0; 
 }
